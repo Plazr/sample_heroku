@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:Plazr/plazr_auth.git
+  remote: https://github.com/Plazr/plazr_auth.git
   revision: a50455c5648e6be420e59285521b49527da04658
   specs:
     plazr_auth (0.0.1)
@@ -21,7 +21,7 @@ GIT
       uuidtools (>= 2.1.2)
 
 GIT
-  remote: git@github.com:Plazr/plazr_store.git
+  remote: https://github.com/Plazr/plazr_store.git
   revision: ec6eb4d941f3ca9acf97d61cf4691a4ee8a98a18
   branch: develop
   specs:
