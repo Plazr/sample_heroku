@@ -8,8 +8,8 @@ gem 'rails', '3.2.9'
 gem 'sqlite3'
 gem 'database_cleaner'
 gem 'factory_girl'
-gem 'plazr_store', :git => 'git@github.com:Plazr/plazr_store.git'
-gem 'plazr_auth', :git =>  'git@github.com:Plazr/plazr_auth.git'
+gem 'plazr_store', :git => 'https://github.com/Plazr/plazr_store.git', :branch => 'develop'
+gem 'plazr_auth', :git =>  'https://github.com/Plazr/plazr_auth.git'
 
 
 gem 'pry'

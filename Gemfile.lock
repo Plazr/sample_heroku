@@ -22,7 +22,8 @@ GIT
 
 GIT
   remote: git@github.com:Plazr/plazr_store.git
-  revision: 6e5aa7bb37e39bb607651504fe326f0f6a768b5d
+  revision: ec6eb4d941f3ca9acf97d61cf4691a4ee8a98a18
+  branch: develop
   specs:
     plazr_store (0.0.1)
       activemerchant
@@ -40,7 +41,6 @@ GIT
       rails (~> 3.2.9)
       rails_engine_decorators
       rb-readline
-      redactor-rails
       sass-rails
       sprockets
       turbolinks
@@ -241,10 +241,6 @@ GEM
     rb-readline (0.4.2)
     rdoc (3.12.1)
       json (~> 1.4)
-    redactor-rails (0.3.3)
-      devise
-      mime-types
-      orm_adapter
     ruby-openid (2.2.2)
     sass (3.2.5)
     sass-rails (3.2.6)
