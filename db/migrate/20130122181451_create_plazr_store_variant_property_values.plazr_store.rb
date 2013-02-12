@@ -8,6 +8,6 @@ class CreatePlazrStoreVariantPropertyValues < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index :plazr_store_variant_property_values, :v_id
+    add_index :plazr_store_variant_property_values, :variant_property_id, name: 'pl_s_v_p_v_on_v_p'
   end
 end
