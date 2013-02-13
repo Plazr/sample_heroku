@@ -7,3 +7,4 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 PlazrAuth::Engine.load_seed
 PlazrStore::Engine.load_seed
+
